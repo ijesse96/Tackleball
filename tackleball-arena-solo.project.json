@@ -1,0 +1,110 @@
+{
+  "name": "TackleBall Arena Solo",
+  "servePort": 34873,
+  "placeId": 95975589855069,
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$attributes": {
+        "GameMode": "solo"
+      },
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "TackleDiveAnimation": {
+        "$className": "Animation",
+        "$properties": {
+          "AnimationId": "rbxassetid://72117028630401"
+        }
+      },
+      "TackleKnockbackAnimation": {
+        "$className": "Animation",
+        "$properties": {
+          "AnimationId": "rbxassetid://86557797809321"
+        }
+      },
+      "TackleGetUpAnimation": {
+        "$className": "Animation",
+        "$properties": {
+          "AnimationId": "rbxassetid://77613663601851"
+        }
+      },
+      "RunAnimation": {
+        "$className": "Animation",
+        "$properties": {
+          "AnimationId": "rbxassetid://135829569943874"
+        }
+      },
+      "JumpAnimation": {
+        "$className": "Animation",
+        "$properties": {
+          "AnimationId": "rbxassetid://97885328874096"
+        }
+      },
+      "TruckTuckAnimation": {
+        "$className": "Animation",
+        "$properties": {
+          "AnimationId": "rbxassetid://102967826049296"
+        }
+      },
+      "JukeRightAnimation": {
+        "$className": "Animation",
+        "$properties": {
+          "AnimationId": "rbxassetid://89016233951307"
+        }
+      },
+      "JukeLeftAnimation": {
+        "$className": "Animation",
+        "$properties": {
+          "AnimationId": "rbxassetid://116183766275679"
+        }
+      },
+      "PassThrowAnimation": {
+        "$className": "Animation",
+        "$properties": {
+          "AnimationId": "rbxassetid://71016886895107"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$properties": {
+        "AvatarJointUpgrade": "Disabled"
+      },
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client/arena"
+        }
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+
+    "Lighting": {
+      "$properties": {
+        "Ambient": [0, 0, 0],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}

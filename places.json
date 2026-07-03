@@ -1,0 +1,23 @@
+{
+  "main-menu": {
+    "name": "Main Menu",
+    "placeId": 73490771045679,
+    "servePort": 34872,
+    "rojoProject": "default.project.json",
+    "buildOutput": "Main Menu.rbxlx"
+  },
+  "tackleball-arena-solo": {
+    "name": "TackleBall Arena Solo",
+    "placeId": 95975589855069,
+    "servePort": 34873,
+    "rojoProject": "tackleball-arena-solo.project.json",
+    "buildOutput": "TackleBall Arena Solo.rbxlx"
+  },
+  "tackleball-arena-teams": {
+    "name": "TackleBall Arena Teams",
+    "placeId": 79166542960911,
+    "servePort": 34874,
+    "rojoProject": "tackleball-arena-teams.project.json",
+    "buildOutput": "TackleBall Arena Teams.rbxlx"
+  }
+}

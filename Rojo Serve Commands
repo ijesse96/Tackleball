@@ -1,0 +1,15 @@
+# Terminal 1 — Main Menu (port 34872)
+rojo serve
+
+# Terminal 2 — Arena Solo (port 34873)
+rojo serve tackleball-arena-solo.project.json
+
+# Terminal 3 — Arena Teams (port 34874)
+rojo serve tackleball-arena-teams.project.json
+
+# If you see "Address already in use", a server is already running.
+# Check: lsof -i :34872 -i :34873 -i :34874
+# Stop:  kill $(lsof -t -i :34872)   or   kill $(lsof -t -i :34873)   or   kill $(lsof -t -i :34874)
+
+# Teams tackles stiff? In Studio: StarterPlayer → AvatarJointUpgrade → Disabled (Rojo sets this on sync).
+# Stop play and re-test so characters respawn with Motor6D joints.

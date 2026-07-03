@@ -1,0 +1,11 @@
+# Roblox place/model builds
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Rojo
+sourcemap.json
+
+# macOS
+.DS_Store
